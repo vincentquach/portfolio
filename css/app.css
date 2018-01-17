@@ -7,28 +7,103 @@
 }
 
 
+/* *****************NAV-MOBILE SECTION************** */
+
+
+
+
+/* *****************NAV-DESKTOP SECTION************** */
+.nav-desktop {
+	background-color: black;
+	height: 80px;
+}
+
+.site-logo {
+	color: white;
+}
+
+.nav-desktop .menu-desktop {
+	background-color: transparent;
+}
+
+.nav-desktop a {
+	color: white;
+}
+
+.nav-desktop a:hover {
+	color: #118C4E;
+}
 
 /* *****************HERO SECTION************** */
 .hero {
 	background-color: grey;
 	padding: 80px 0px;
 	height: 400px;
+	background-image: url("../images/patterns.png");
+}
+
+.hero h1 {
+	color: #118C4E;
+}
+
+.hero p {
+	color: rgba(255,255,255,0.7);
+	/* width: 70%; */
 }
 
 /* *****************MAIN SECTION************** */
 .main {
 	padding: 80px 0px;
-
 }
+
+.main p span {
+	font-weight: bold;
+	color: #118C4E;
+}
+
 
 
 
 /* *****************FOOTER************** */
 footer {
-	background-color: #222;
-	padding: 80px 0px;
+	background-color: black;
+	padding: 30px 0px;
+
 }
 
 footer a {
 	display: block;
+	color: white;
+	font-size: 13px;
+}
+
+footer a:hover {
+	color: #118C4E
+}
+
+footer h4 {
+	color: #118C4E;
+	font-size: 21px;
+}
+
+footer hr {
+	border-color: rgba(255,255,255,0.3);
+	margin: 10px 0;
+	width: 100px;
+}
+
+footer p {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	font-size: 13px;
+
+}
+
+
+
+/* *****************MEDIA QUERY************** */
+@media (max-width: 639px) {
+	.nav-desktop {
+		display: none;
+	}
 }
