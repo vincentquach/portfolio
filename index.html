@@ -9,100 +9,114 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <!-- **************MOBILE NAVIGATION**************** -->
+
+    <div class="off-canvas-wrapper">
+      <!-- creates an off screen menu -->
+       <div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
+         <ul>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Portfolio</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </div>
+
+       <div class="off-canvas-content" data-off-canvas-content>
+         <!-- creates title bar for menu only and hidden on desktop -->
+         <div class="title-bar show-for-small-only">
+          <div class="title-bar-left">
+            <button class="menu-icon" type="button" data-open="mobile-menu"></button>
+            <span class="title-bar-title">Vincent Quach</span>
+          </div>
+        </div>
+         <!-- **************MOBILE NAVIGATION**************** -->
 
 
 
-    <!-- **************DESKTOP NAVIGATION**************** -->
-  <nav class="top-bar nav-desktop">
-    <div class="wrap grid-x">
+         <!-- **************DESKTOP NAVIGATION**************** -->
+         <nav class="top-bar nav-desktop">
+           <div class="wrap grid-x">
 
-      <div class="top-bar-left">
-          <h3 class="site-logo">Vincent Quach</h3>
-      </div>
+             <div class="top-bar-left">
+                 <h3 class="site-logo">Vincent Quach</h3>
+             </div>
 
-      <div class="top-bar-right">
-        <ul class="menu menu-desktop">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+             <div class="top-bar-right">
+               <ul class="menu menu-desktop">
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Portfolio</a></li>
+                 <li><a href="#">Contact</a></li>
+               </ul>
+             </div>
+           </div>
+         </nav>
 
-  <!-- **************HERO SECTION**************** -->
-  <section class="hero">
-    <div class="wrap">
-      <h1>Welcome to my page!</h1>
-      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
-      <a href="#" class="button">Download Resume</a>
-      <a href="#" class="button success">Contact Me</a>
-    </div>
-  </section>
+         <!-- **************HERO SECTION**************** -->
+         <section class="hero">
+           <div class="wrap">
+             <h1 style="font-size: 84px;">Vincent Quach</h1>
+             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
+             <a href="#" class="button">Download Resume</a>
+             <a href="#" class="button success">Contact Me</a>
+           </div>
+         </section>
 
-  <!-- **************MAIN CONTENT**************** -->
-  <section class="main">
-    <div class="wrap grid-x grid-padding-x small-up-1 medium-up-3">
-      <div class="cell profile-list">
-        <p><span>Full Name</span>
-          <br>
-          Vincent Quach
-          <br>
-          <span>Birth Date</span>
-          <br>
-          September 25, 1988
-          <br>
-          <span>Hobbies</span>
-          <br>
-          Video Games, Anime, Movies
-          <br>
-          <span>Email</span>
-          <br>
-          vincentquach2003@yahoo.com
-          <br>
-          <span>Phone</span>
-          <br>
-          (408) 219-5857
-        </p>
+         <!-- **************MAIN CONTENT**************** -->
+         <section class="main">
+           <div class="wrap grid-x grid-padding-x small-up-1 medium-up-3">
+             <div class="cell profile-list">
+               <h1>Profile</h1>
+               <hr>
+               <ul>
+                 <span><li>Full Name</li></span>
+                 <li>Vincent Quach</li>
+                 <span><li>Birth Date</li></span>
+                 <li>September 25, 1988</li>
+                 <span><li>Hobbies</li></span>
+                 <li>Video Games, Anime, Movies</li>
+                 <span><li>Email</li></span>
+                 <li>vincentquach2003@yahoo.com</li>
+                 <span><li>Phone</li></span>
+                 <li>(408) 219-5857</li>
+               </ul>
 
 
-      </div>
-      <div class="cell">
-        <h1>Secondary Section</h1>
-        <hr>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-      </div>
-      <div class="cell">
-        <h1>Third Section</h1>
-        <hr>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-      </div>
-    </div>
-  </section>
+             </div>
+             <div class="cell">
+               <h1>Secondary Section</h1>
+               <hr>
+               <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+             </div>
+             <div class="cell">
+               <h1>Third Section</h1>
+               <hr>
+               <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+             </div>
+           </div>
+         </section>
 
-  <!-- **************FOOTER SECTION**************** -->
-  <footer>
-    <div class="wrap grid-x grid-padding-x small-up-1 medium-up-3" align="center">
-      <div class="cell">
-        <h4>Email</h4>
-        <hr>
-        <p>vincentquach2003@yahoo.com</p>
-      </div>
-      <div class="cell">
-        <h4>Phone</h4>
-        <hr>
-        <p>(408) 219-5857</p>
-      </div>
-      <div class="cell">
-        <h4>Social Media</h4>
-        <hr>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-      </div>
-
-    </div>
-  </footer>
+         <!-- **************FOOTER SECTION**************** -->
+         <footer>
+           <div class="wrap grid-x grid-padding-x small-up-1 medium-up-3" align="center">
+             <div class="cell">
+               <h4>Email</h4>
+               <hr>
+               <p>vincentquach2003@yahoo.com</p>
+             </div>
+             <div class="cell">
+               <h4>Phone</h4>
+               <hr>
+               <p>(408) 219-5857</p>
+             </div>
+             <div class="cell">
+               <h4>Social Media</h4>
+               <hr>
+               <a href="#">Facebook</a>
+               <a href="#">Instagram</a>
+             </div>
+           </div>
+         </footer>
+       </div>
+     </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
