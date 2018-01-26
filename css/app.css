@@ -32,9 +32,6 @@
 	line-height: 3;
 }
 
-
-
-
 /* *****************NAV-DESKTOP SECTION************** */
 .nav-desktop {
 	background-color: black;
@@ -68,12 +65,10 @@
 
 .hero h1 {
 	color: #118C4E;
-
 }
 
 .hero p {
 	color: rgba(255,255,255,0.7);
-
 }
 
 /* *****************MAIN SECTION************** */
@@ -132,7 +127,6 @@ footer p {
 	display: block;
 	color: rgba(255,255,255,0.7);
 	font-size: 13px;
-
 }
 
 /* *****************MEDIA QUERY************** */
@@ -146,65 +140,4 @@ footer p {
 	.hero h1, .hero p {
 		width: 100%;
 	}
-}
-
-/* *******************************************************************************
-															ABOUT PAGE
-******************************************************************************* */
-.about-content img {
-	float: left;
-	padding-right: 20px;
-}
-
-.about-content h1 {
-	color: #118C4E;
-	text-align: center;
-	margin-left: 300px;
-}
-
-.about-content {
-	padding: 80px 0px;
-}
-
-.about-content hr {
-	margin-top: -10px;
-}
-
-.about-content p {
-	padding-top: 50px;
-}
-
-/* *****************ABOUT FOOTER************** */
-.about-footer {
-	background-color: black;
-  
-
-}
-
-.about-footer a {
-	display: block;
-	color: white;
-	font-size: 13px;
-}
-
-.about-footer a:hover {
-	color: #118C4E
-}
-
-.about-footer h4 {
-	color: #118C4E;
-	font-size: 21px;
-}
-
-.about-footer hr {
-	border-color: rgba(255,255,255,0.3);
-	margin: 10px 0;
-	width: 100px;
-}
-
-.about-footer p {
-	display: block;
-	color: rgba(255,255,255,0.7);
-	font-size: 13px;
-
 }
