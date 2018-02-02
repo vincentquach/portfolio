@@ -67,13 +67,19 @@
 	color: #118C4E;
 }
 
-.hero p {
+.hero li {
+	display: inline;
 	color: rgba(255,255,255,0.7);
+	font-size: 1.7rem;
+	letter-spacing: .2rem;
+	border-right: #118C4E solid 3px;
+	padding: 0px 20px;
 }
 
 /* *****************MAIN SECTION************** */
 .main {
 	padding: 80px 0px;
+	/* text-align: center; */
 }
 
 .main span {
@@ -94,6 +100,58 @@
 	margin-top: -10px;
 
 }
+
+/* *****************ABOUT CONTENT************** */
+.about-content h1 {
+	color: #118C4E;
+	text-align: center;
+}
+
+.about-content {
+	padding: 190px 0px;
+}
+
+.about-content hr {
+	margin-top: -10px;
+}
+
+.about-content .cell {
+	padding-top: 10px;
+}
+
+/* *****************CONTACT CONTENT************** */
+.contact-content {
+	padding: 236px 0px;
+  text-align: center;
+}
+
+.contact-content span {
+	font-weight: bold;
+	color: #118C4E;
+}
+
+.contact-content h1 {
+	color: #118C4E;
+	padding-bottom: 40px;
+}
+
+.contact-content h3 {
+	color: #118C4E;
+}
+
+.contact-content hr {
+	margin-top: -10px;
+}
+
+.contact-content i {
+  font-size: 67px;
+}
+
+/* *****************PORTFOLIO CONTENT************** */
+.portfolio-content {
+	padding: 236px 0px;
+}
+
 
 /* *****************FOOTER************** */
 footer {
