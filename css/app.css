@@ -58,7 +58,6 @@
 .hero {
 	background-color: grey;
 	padding: 80px 0px;
-	height: 400px;
 	background-image: url("../images/patterns.png");
 	text-align: center;
 }
@@ -79,7 +78,7 @@
 /* *****************MAIN SECTION************** */
 .main {
 	padding: 80px 0px;
-	/* text-align: center; */
+	text-align: center;
 }
 
 .main span {
@@ -104,11 +103,11 @@
 /* *****************ABOUT CONTENT************** */
 .about-content h1 {
 	color: #118C4E;
-	text-align: center;
 }
 
 .about-content {
 	padding: 190px 0px;
+	text-align: center;
 }
 
 .about-content hr {
@@ -149,7 +148,11 @@
 
 /* *****************PORTFOLIO CONTENT************** */
 .portfolio-content {
-	padding: 236px 0px;
+	padding: 221px 0px;
+}
+
+.portfolio-image {
+	padding-top: 15px;
 }
 
 
