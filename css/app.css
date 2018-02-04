@@ -148,11 +148,16 @@
 
 /* *****************PORTFOLIO CONTENT************** */
 .portfolio-content {
-	padding: 221px 0px;
+	padding: 40px 0px;
 }
 
 .portfolio-image {
 	padding-top: 15px;
+}
+
+.portfolio-content h1 {
+	color: #118C4E;
+	text-align: center;
 }
 
 
